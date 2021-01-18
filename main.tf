@@ -22,7 +22,7 @@ data "digitalocean_ssh_key" "work" {
 
 resource "digitalocean_droplet" "web" {
   image = "ubuntu-18-04-x64"
-  name  = "web-1"
+  name  = "my new vm"
   region = "sgp1"
   size = "s-1vcpu-1gb"
   ssh_keys = [ data.digitalocean_ssh_key.work.id ]
