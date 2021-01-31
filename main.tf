@@ -14,12 +14,12 @@ provider "digitalocean" {
 }
 
 data "digitalocean_ssh_key" "work" {
-  name = "PublicKeyFromMac"
+  name = "PublicKeyFromMac" # We have to generate from our terminal then put it into DigitalOcean Dashboard.
 }
 
 resource "digitalocean_droplet" "web" {
   image  = "ubuntu-18-04-x64"
-  name   = "my new vm"
+  name   = "my-new-vm" #Only valid hostname characters are allowed. (a-z, A-Z, 0-9, . and -)
   region = "sgp1"
   size   = "s-1vcpu-1gb"
   ssh_keys = [

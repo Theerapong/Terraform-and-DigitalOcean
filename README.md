@@ -1,14 +1,16 @@
 # Terraform-and-DigitalOcean
 this is a test
 
+# Before run
 
-# how to start
+We have to generate PublicKey from our terminal, then put it into DigitalOcean Dashboard. At main.tf , refer to it as well 
 
-firstly , we have to configure Key between Terminal and DigitalOcean 
+# How to run
 
-using
+`terraform init`
 
-`export DO_PAT="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"`
+`terraform apply`
+
 
 
 
