@@ -1,7 +1,7 @@
 
 # Before run
 
-We have to generate PublicKey from our terminal, then put it into DigitalOcean Dashboard. At main.tf , refer to it as well
+Firstly, we have to generate PublicKey from our terminal, then put it into DigitalOcean Dashboard. At main.tf , refer to it as well
 
 `ssh-keygen -t rsa -b 4096 -C aaaa@bbbb.com`
 
@@ -11,7 +11,7 @@ We have to generate PublicKey from our terminal, then put it into DigitalOcean D
 
 `terraform apply`
 
-(we have to put the TokenAccessKey from DigitalOcean after this command.)
+(we have to type the TokenAccessKey from DigitalOcean after this command.)
 
 
 # Reference 
