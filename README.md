@@ -1,5 +1,3 @@
-# Terraform-and-DigitalOcean
-this is a test
 
 # Before run
 
