@@ -11,7 +11,7 @@ We have to generate PublicKey from our terminal, then put it into DigitalOcean D
 
 `terraform apply`
 
-
+(we have to put the TokenAccessKey from DigitalOcean after this command.)
 
 
 # Reference 
